@@ -20,6 +20,11 @@ export type StashpointEncoded = {
   readonly rating: number
 }
 
+export type Filter = {
+  property: 'rating' | 'bagPerDayPrice'
+  order: 'asc' | 'desc'
+}
+
 export const Stashpoint = {
   decode: (
     input: unknown,
