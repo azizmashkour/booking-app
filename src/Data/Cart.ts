@@ -2,6 +2,12 @@
 
 import { DateRange, DateRangeEncoded } from './DateRange'
 
+export type DraftCart = {
+  readonly bagCount: number
+  readonly dateRange: DateRange
+  readonly stashpointId: string | undefined
+}
+
 export type Cart = {
   readonly bagCount: number
   readonly dateRange: DateRange

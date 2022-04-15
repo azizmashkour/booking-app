@@ -1,7 +1,9 @@
 import { StrictMode } from 'react'
+// @ts-ignore : react types are not working yet on React 18
 import { createRoot } from 'react-dom/client'
 import { App } from './App'
 import reportWebVitals from './reportWebVitals'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import 'sanitize.css'
 import 'sanitize.css/assets.css'
